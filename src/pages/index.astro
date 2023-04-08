@@ -4,7 +4,10 @@ import RecipeList from "../components/ui/RecipeList.astro";
 const allRecipes = await Astro.glob("./recipes/*.md");
 ---
 
-<Layout title="Cobra's Magic Recipes">
+<Layout
+  title="King Cobra Recipes"
+  description="Here is where you can find recipes of King Cobra JFS"
+>
   <main>
     <div id="content-container" class="flex justify-center items-center">
       <article id="about" class="p-4 w-[40rem] prose">
