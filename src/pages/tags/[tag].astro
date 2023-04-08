@@ -1,0 +1,45 @@
+---
+import RecipeList from "../../components/ui/RecipeList.astro";
+import Layout from "../../layouts/Layout.astro";
+export async function getStaticPaths() {
+  const allRecipes = await Astro.glob("../recipes/*.md");
+
+  const uniqueTags = [
+    ...new Set(allRecipes.map((recipe) => recipe.frontmatter.tags).flat()),
+  ];
+
+  return uniqueTags.map((tag) => {
+    const filteredRecipes = allRecipes.filter((recipe) =>
+      recipe.frontmatter.tags.includes(tag)
+    );
+    return {
+      params: { tag },
+      props: { recipes: filteredRecipes },
+    };
+  });
+}
+
+const { tag } = Astro.params;
+const { recipes } = Astro.props;
+---
+
+<Layout title="Cobra's Magic Recipes">
+  <main>
+    <div id="content-container" class="flex justify-center items-center">
+      <article id="about" class="p-4 w-[40rem] prose">
+        <h1 class="text-3xl font-bold text-center font-merriweather">
+          Recipes tagged with "{tag}"
+        </h1>
+        <div class="tags-list mt-2">
+          <ul>
+            {
+              recipes.map((recipe) => (
+                <RecipeList url={recipe.url} title={recipe.frontmatter.title} />
+              ))
+            }
+          </ul>
+        </div>
+      </article>
+    </div>
+  </main>
+</Layout>

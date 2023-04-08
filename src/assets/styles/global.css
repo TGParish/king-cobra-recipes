@@ -1,0 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Creepster&family=DM+Serif+Display&family=Merriweather&family=Montserrat&family=Roboto&family=Satisfy&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
