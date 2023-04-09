@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import RecipeList from "../components/ui/RecipeList.astro";
+const allRecipes = await Astro.glob("./recipes/*.md");
+
+const tags = [
+  ...new Set(allRecipes.map((recipe) => recipe.frontmatter.tags).flat()),
+];
+---
+
+<Layout
+  title="King Cobra Recipes"
+  description="Here is where you can find recipes of King Cobra JFS"
+>
+  <main>
+    <div id="content-wrapper" class="flex justify-center items-center">
+      <div id="content-container" class="m-6 w-[40rem]">
+        <section id="latest-recipes">
+          <h1>404: Page Not Found</h1>
+          <p>
+            Make sure your request was of-age, cis-gendered, alive, preferrably
+            21 or above, and a 4 on the looks scale, like if she's a 6 on a good
+            day.
+          </p>
+        </section>
+      </div>
+    </div>
+  </main>
+</Layout>

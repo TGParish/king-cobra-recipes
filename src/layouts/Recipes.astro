@@ -35,7 +35,9 @@ const { frontmatter } = Astro.props;
               />
             ) : null
           }
-          <div class="border-4 border-dotted p-4 mt-4 capitalize flex flex-col">
+          <div
+            class="border-4 border-dotted border-purple-500 p-4 mt-4 capitalize flex flex-col"
+          >
             <span class="text-[whitesmoke] text-2xl">
               <strong>Created on:{" "}</strong><time
                 >{frontmatter.createdOn}</time
