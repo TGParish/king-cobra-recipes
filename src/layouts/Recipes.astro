@@ -33,6 +33,11 @@ const { frontmatter } = Astro.props;
                 >{frontmatter.createdOn}</time
               >
             </p>
+            <p>
+              <strong>Submitted by:{" "}</strong><time
+                >{frontmatter.submittedBy}</time
+              >
+            </p>
           </div>
           {
             frontmatter.image ? (

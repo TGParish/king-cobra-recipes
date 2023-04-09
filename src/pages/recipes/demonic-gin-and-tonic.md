@@ -3,7 +3,7 @@ layout: "../../layouts/Recipes.astro"
 title: "Demonic Gin and Tonic"
 createdOn: "April 6, 2023"
 description: "This demonic drink will have you wishing you were in hell"
-submittedBy: "ViperDude90"
+submittedBy: "viperdude90"
 tags: ["drink combo", "sparkling water", "gin", "monster"]
 image: ""
 link: "https://www.youtube.com/watch?v=0-KAZ4SXmSE&ab_channel=KingCobraJFS"
