@@ -27,6 +27,13 @@ const { frontmatter } = Astro.props;
           >
             {frontmatter.title}
           </h1>
+          <div>
+            <p>
+              <strong>Created on:{" "}</strong><time
+                >{frontmatter.createdOn}</time
+              >
+            </p>
+          </div>
           {
             frontmatter.image ? (
               <img

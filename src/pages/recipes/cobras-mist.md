@@ -1,6 +1,7 @@
 ---
 layout: "../../layouts/Recipes.astro"
 title: "Cobra's Mist"
+createdOn: "Nov 20, 2017"
 description: "This snazzy little drink combo will have the of-age Goth Chicks swooning!"
 submittedBy: "ViperDude90"
 tags: ["drink combo", "beer", "soda"]

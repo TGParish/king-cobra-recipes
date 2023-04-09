@@ -1,17 +1,18 @@
 ---
 layout: "../../layouts/Recipes.astro"
-title: "Valentine's Day Special"
+title: "Valentine's Day Special 2023"
+createdOn: "Feb 7, 2023"
 description: "This snazzy little drink combo will have the of-age Goth Chicks swooning!"
 submittedBy: "ViperDude90"
 tags: ["drink combo", "champagne", "soda", "tequila", "vodka", "rum"]
 image: "/images/valentines-day-special.png"
-link: "https://www.youtube.com/watch?v=AeZX-A6DmRE&t=11s&ab_channel=BoglimChronicles"
+link: "https://www.youtube.com/watch?v=bSGMESOT67M&t=35s&ab_channel=KingCobraJFS"
 ingredients:
   ["korbel california champagne sweet rosé", "jose cuervo gold tequila"]
 cobraRemarks: "If you don't have anyone to spend Valentine's day with, honestly don't trip up about it, just spend the day loving yourself."
 ---
 
-Spending Valentines day alone or, if you're lucky enough, with your of-age, alive, cis-gendered,
+Spending Valentine's day alone or, if you're lucky enough, with your of-age, alive, cis-gendered,
 consenting, non-related girlfriend? This potent drink combo will get you lucky with yourself and others!
 
 ## Ingredients
