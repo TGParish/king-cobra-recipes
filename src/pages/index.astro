@@ -2,6 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import RecipeList from "../components/ui/RecipeList.astro";
 const allRecipes = await Astro.glob("./recipes/*.md");
+
+const tags = [
+  ...new Set(allRecipes.map((recipe) => recipe.frontmatter.tags).flat()),
+];
 ---
 
 <Layout
@@ -9,19 +13,65 @@ const allRecipes = await Astro.glob("./recipes/*.md");
   description="Here is where you can find recipes of King Cobra JFS"
 >
   <main>
-    <div id="content-container" class="flex justify-center items-center">
-      <article id="about" class="p-4 w-[40rem] prose">
-        <h1 class="text-4xl font-bold text-center font-merriweather">
-          Featured Recipes
-        </h1>
-        <ul>
-          {
-            allRecipes.map((recipe) => (
-              <RecipeList url={recipe.url} title={recipe.frontmatter.title} />
-            ))
-          }
-        </ul>
-      </article>
+    <div id="content-wrapper" class="flex justify-center items-center">
+      <div id="content-container" class="m-6 w-[40rem]">
+        <section id="latest-recipes">
+          <h2>Latest Recipes</h2>
+          <ul>
+            {
+              allRecipes.map((recipe) => (
+                <RecipeList url={recipe.url} title={recipe.frontmatter.title} />
+              ))
+            }
+          </ul>
+        </section>
+        <section id="tags">
+          <h2>Or Browse by Tag...</h2>
+          <ul>
+            {tags.map((tag) => <RecipeList url={`/tags/${tag}`} title={tag} />)}
+          </ul>
+        </section>
+        <section id="why">
+          <h2>Huh, cool, what is this...</h2>
+          <p>
+            This is a website to document that culinary excellence of <a
+              target="_blank"
+              href="https://youtube.fandom.com/wiki/KingCobraJFS"
+              class="text-green-500 underline">Gothic King Cobra JFS</a
+            >, a YouTube celebrity known for his eloquent way with words and
+            help with gender relations.
+          </p>
+          <p>
+            He has a seemingly boundless amount of recipes he has shown in his
+            videos, ranging from alcoholic drinks to slightly edible food, to
+            not so edible food. I couldn't find any resources online that share
+            his recipes, so I decided to make my own.
+          </p>
+          <p>
+            The alcohol drink combos are for of-age(21 and up) fans and I don't
+            recommend actually eating any of the food that is an outcome of
+            these recipes, but some of it I'm sure will amuse and satiate you in
+            some capacity. Cobra's Mist is somehow actually decent.
+          </p>
+        </section>
+        <section>
+          <h2>How to submit a recipe</h2>
+          <p>
+            You don't have to submit a recipe, but it's greatly appreciated.
+          </p>
+          <p>
+            Follow the template provided <a
+              target="_blank"
+              href="https://carbon.now.sh/?bg=rgba%2853%2C68%2C60%2C1%29&t=synthwave-84&wt=none&l=auto&width=868&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=49px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%250A%2520%2520---%250A%2520%2520layout%253A%2520%2522..%252F..%252Flayouts%252FRecipes.astro%2522%250A%2520%2520title%253A%2520%2522Cobra%27s%2520Mist%2522%250A%2520%2520createdOn%253A%2520%2522Nov%252020%252C%25202017%2522%250A%2520%2520description%253A%2520%2522This%2520snazzy%2520little%2520drink%2520combo%2520will%2520have%2520the%2520of-age%2520Goth%2520Chicks%2520swooning%21%2522%250A%2520%2520submittedBy%253A%2520%2522viperdude90%2522%250A%2520%2520tags%253A%2520%255B%2522drink%2520combo%2522%252C%2520%2522beer%2522%252C%2520%2522soda%2522%252C%2520%2522mountain%2520dew%2522%255D%250A%2520%2520image%253A%2520%2522%2522%250A%2520%2520link%253A%2520%2522https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D0-KAZ4SXmSE%2526ab_channel%253DKingCobraJFS%2522%250A%2520%2520ingredients%253A%2520%255B%2522blue%2520moon%2522%252C%2520%2522mountain%2520dew%2522%255D%250A%2520%2520---%250A%2520%2520%250A%2520%2520This%2520staple%2520of%2520King%2520Cobra%27s%2520array%2520of%2520dank%2520drink%2520combos%2520will%2520have%2520the%2520Goth%2520girls%2520saying%2520%2522That%2520goth%2520guy%2520mixing%2520beer%2520and%2520soda%2520together%2520smells%2520good%2522.%250A%2520%2520%250A%2520%2520%2523%2523%2520Ingredients%250A%2520%2520%250A%2520%2520-%25201%252F2%2520Mountain%2520Dew%250A%2520%2520%250A%2520%2520-%25201%252F2%2520Blue%2520Moon%2520Beer%250A%2520%2520%250A%2520%2520%2523%2523%2520Instructions%250A%2520%2520%250A%2520%2520The%2520recipe%2520calls%2520for%2520half%2520and%2520half%2520of%2520Blue%2520Moon%2520beer%2520and%2520Mountain%2520Dew%252C%2520but%2520if%2520you%27re%2520feeling%2520spunky%252C%2520you%2520can%2520opt%2520for%2520more%2520beer.%250A%2520%2520%250A%2520%2520For%2520of%2520age%2821%2520years%2520old%29%2520and%2520up%252C%2520alive%252C%2520consenting%2520fans%2520only.%250A"
+              >here</a
+            > and fill out the necessary information and send it to <a
+              href="mailto:kingcobrarecipes@gmail.com"
+              >kingcobrarecipes@gmail.com</a
+            >. Be sure to send a photo as well. It can be your own or a
+            screengrab from the video.
+          </p>
+        </section>
+      </div>
     </div>
   </main>
 </Layout>

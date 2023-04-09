@@ -3,3 +3,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#151515];
+  }
+
+  h1 {
+    @apply text-[#F8F5E4] text-4xl font-bold text-center font-merriweather capitalize;
+  }
+  h2 {
+    @apply text-[#F8F5E4] text-3xl font-bold text-center font-merriweather capitalize my-4;
+  }
+  p {
+    @apply text-2xl text-[#F8F5E4] my-4;
+  }
+  ol li {
+    @apply text-2xl list-decimal decoration-slate-100 marker:text-white;
+  }
+  ol {
+    @apply list-decimal;
+  }
+  ul li {
+    @apply text-2xl list-disc decoration-slate-100 marker:text-white capitalize ml-4;
+  }
+  a {
+    @apply text-[#F7C04A];
+  }
+  code {
+    @apply text-[whitesmoke];
+  }
+}

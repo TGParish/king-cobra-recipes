@@ -21,45 +21,46 @@ const { frontmatter } = Astro.props;
     <Navbar />
     <main>
       <div id="content-container" class="flex justify-center items-center">
-        <article id="recipe" class="p-4 w-[40rem] prose">
-          <h1
-            class="text-4xl font-bold font-merriweather capitalize text-center"
-          >
+        <article id="recipe" class="p-6 w-[40rem]">
+          <h1 class="">
             {frontmatter.title}
           </h1>
-          <div>
-            <p>
-              <strong>Created on:{" "}</strong><time
-                >{frontmatter.createdOn}</time
-              >
-            </p>
-            <p>
-              <strong>Submitted by:{" "}</strong><time
-                >{frontmatter.submittedBy}</time
-              >
-            </p>
-          </div>
           {
             frontmatter.image ? (
               <img
                 src={frontmatter.image}
                 alt={frontmatter.title}
                 title={frontmatter.title}
+                class="my-4"
               />
             ) : null
           }
+          <div class="border-4 border-dotted p-4 mt-4 capitalize flex flex-col">
+            <span class="text-[whitesmoke] text-2xl">
+              <strong>Created on:{" "}</strong><time
+                >{frontmatter.createdOn}</time
+              >
+            </span>
+            <span class="text-[whitesmoke] text-2xl">
+              <strong>Submitted by:{" "}</strong>{frontmatter.submittedBy}
+            </span>
+            <div id="yt-link">
+              <a target="_blank" href={frontmatter.link} class="text-2xl"
+                >YouTube Link</a
+              >
+            </div>
+          </div>
           <slot />
           <h2>Tags:</h2>
           <ul class="">
             {
               frontmatter.tags.map((tag: string) => (
-                <li class="text-3xl capitalize">
+                <li>
                   <a href={"/tags/" + tag}>{tag}</a>
                 </li>
               ))
             }
           </ul>
-          <a target="_blank" href={frontmatter.link}>YouTube Link</a>
         </article>
       </div>
     </main>

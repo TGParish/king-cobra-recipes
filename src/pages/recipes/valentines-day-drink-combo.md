@@ -4,7 +4,8 @@ title: "Valentine's Day Special 2023"
 createdOn: "Feb 7, 2023"
 description: "This snazzy little drink combo will have the of-age Goth Chicks swooning!"
 submittedBy: "viperdude90"
-tags: ["drink combo", "champagne", "soda", "tequila", "vodka", "rum"]
+tags:
+  ["drink combo", "champagne", "soda", "tequila", "vodka", "rum", "curdling"]
 image: "/images/valentines-day-special.png"
 link: "https://www.youtube.com/watch?v=bSGMESOT67M&t=35s&ab_channel=KingCobraJFS"
 ingredients:
