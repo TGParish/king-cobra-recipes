@@ -41,7 +41,7 @@ function Search({ searchList }) {
         onChange={handleOnSearch}
         id="search-all-recipes"
         placeholder="Search Cobra's Cookbook"
-        className="w-full p-2 bg-[#222] text-[#9ba2ae]"
+        className="w-full p-2 bg-[#222] text-[#9ba2ae] appearance-none"
       />
       {query.length > 1 && (
         <p>
