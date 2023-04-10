@@ -53,7 +53,9 @@ function Search({ searchList }) {
         {recipes &&
           recipes.map((recipe) => (
             <li key={recipe.submittedBy}>
-              <a href={recipe.url}>{recipe.frontmatter.title}</a>
+              <a tabindex="0" href={recipe.url}>
+                {recipe.frontmatter.title}
+              </a>
             </li>
           ))}
       </ul>
