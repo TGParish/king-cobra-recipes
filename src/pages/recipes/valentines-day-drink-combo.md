@@ -10,7 +10,6 @@ image: "/images/valentines-day-special.png"
 link: "https://www.youtube.com/watch?v=bSGMESOT67M&t=35s&ab_channel=KingCobraJFS"
 ingredients:
   ["korbel california champagne sweet rosé", "jose cuervo gold tequila"]
-cobraRemarks: "If you don't have anyone to spend Valentine's day with, honestly don't trip up about it, just spend the day loving yourself."
 ---
 
 Spending Valentine's day alone or, if you're lucky enough, with your of-age, alive, cis-gendered,
