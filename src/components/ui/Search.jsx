@@ -11,7 +11,7 @@ const options = {
     "frontmatter.ingredients",
   ],
   includeMatches: true,
-  minMatchCharLength: 3,
+  minMatchCharLength: 2,
   threshold: 0.5,
 };
 
