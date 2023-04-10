@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import RecipeList from "../components/ui/RecipeList.astro";
+import Search from "../components/ui/Search";
 const allRecipes = await Astro.glob("./recipes/*.md");
 
 const tags = [
@@ -15,6 +16,9 @@ const tags = [
   <main>
     <div id="content-wrapper" class="flex justify-center items-center">
       <div id="content-container" class="m-6 w-[40rem]">
+        <section id="search" class="flex flex-col justify-center">
+          <Search client:load searchList={allRecipes} />
+        </section>
         <section id="latest-recipes">
           <h2>Latest Recipes</h2>
           <ul>
