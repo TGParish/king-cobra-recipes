@@ -27,8 +27,11 @@
   ul li {
     @apply text-2xl list-disc decoration-slate-100 marker:text-white capitalize ml-6;
   }
-  a {
-    @apply text-[#F7C04A];
+  li a {
+    @apply text-[#F7C04A] visited:text-[#aa7a12] hover:text-[#F8F5E4];
+  }
+  .yt-link {
+    @apply text-[#F7C04A] visited:text-[#aa7a12] hover:text-[#F8F5E4];
   }
   code {
     @apply text-[whitesmoke];

@@ -49,16 +49,16 @@ function Search({ searchList }) {
           for '{query}'
         </p>
       )}
-      <ul>
+      <ol>
         {recipes &&
           recipes.map((recipe) => (
             <li key={recipe.submittedBy}>
-              <a tabindex="0" href={recipe.url}>
+              <a tabIndex="0" href={recipe.url}>
                 {recipe.frontmatter.title}
               </a>
             </li>
           ))}
-      </ul>
+      </ol>
     </>
   );
 }

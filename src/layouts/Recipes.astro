@@ -46,9 +46,11 @@ const { frontmatter } = Astro.props;
             <span class="text-[whitesmoke] text-2xl">
               <strong>Submitted by:{" "}</strong>{frontmatter.submittedBy}
             </span>
-            <div id="yt-link">
-              <a target="_blank" href={frontmatter.link} class="text-2xl"
-                >YouTube Link</a
+            <div id="yt-link-container">
+              <a
+                target="_blank"
+                href={frontmatter.link}
+                class="text-2xl yt-link">YouTube Link</a
               >
             </div>
           </div>
