@@ -1,15 +1,14 @@
 ---
-
 layout: "../../layouts/Recipes.astro"
 title: "Cobra's English"
 createdOn: "May 21, 2018"
 description: "Jolly good, this crazy mixologist is at it again. This time with malt liquor and Monster. Hold onto your britches, bitches!!"
 submittedBy: "Sneaky_Dingo"
-tags: ["drink combo", "malt liquor", "beer", "whiskey", "monster", "energy drink" ]
-image: ""
+tags:
+  ["drink combo", "malt liquor", "beer", "whiskey", "monster", "energy drink"]
+image: "/images/cobras-english.png"
 link: "https://www.youtube.com/watch?v=rs2G79kFhIQ"
 ingredients: ["olde english 800", "monster energy drink"]
-
 ---
 
 Jolly good, this crazy mixologist is at it again. This time with malt liquor and Monster. Hold onto your britches, bitches! Ha ha ha yesss.
