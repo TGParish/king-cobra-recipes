@@ -54,6 +54,9 @@ const { frontmatter } = Astro.props;
               >
             </div>
           </div>
+          <section id="description">
+            <p>{frontmatter.description}</p>
+          </section>
           <slot />
           <h2>Tags:</h2>
           <ul class="">

@@ -10,8 +10,6 @@ link: "https://www.youtube.com/watch?v=0-KAZ4SXmSE&ab_channel=KingCobraJFS"
 ingredients: ["gin", "sparkling water", "monster"]
 ---
 
-Make this devilish Gin and Tonic with Gin and sparkling water with a dash of Monster energy drink! Sparkling water is a tonic, troll.
-
 ## Ingredients
 
 - 1/2 Sparking Water

@@ -2,15 +2,13 @@
 layout: "../../layouts/Recipes.astro"
 title: "No Milk Or Butter Mac and Cheese"
 createdOn: "June 21, 2016"
-description: "A great recipe if you have no milk or butter but want mac and cheese."
+description: "A great option if you want Mac and Cheese but don't have milk or butter! Doesn't hurt to do the dishes while we're at it."
 submittedBy: "viperdude90"
 tags: ["Mac and Cheese", "Ranch"]
 image: "/images/mac-and-cheese.png"
 link: "https://www.youtube.com/watch?v=vgb8OXU1A2s&t=0s&ab_channel=Podchamp"
 ingredients: ["macaroni", "ranch", "cheese powder"]
 ---
-
-A great option if you want Mac and Cheese but don't have milk or butter! Doesn't hurt to do the dishes while we're at it.
 
 ## Ingredients
 

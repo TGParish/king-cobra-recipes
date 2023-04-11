@@ -11,8 +11,6 @@ link: "https://www.youtube.com/watch?v=rs2G79kFhIQ"
 ingredients: ["olde english 800", "monster energy drink"]
 ---
 
-Jolly good, this crazy mixologist is at it again. This time with malt liquor and Monster. Hold onto your britches, bitches! Ha ha ha yesss.
-
 ## Ingredients
 
 - 1/2 cup Olde English 800

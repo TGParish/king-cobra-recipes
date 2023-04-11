@@ -16,8 +16,6 @@ ingredients:
   ]
 ---
 
-It's a crazy drink combination: It's called Crazy Cobra #1 because King Cobra don't know what the fuck to call it! 'tis rather a delicious drink combination and it's got some bite to it!
-
 ## Ingredients
 
 - 1/2 cup Olde English 800
