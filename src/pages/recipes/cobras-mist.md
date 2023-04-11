@@ -1,7 +1,8 @@
 ---
 layout: "../../layouts/Recipes.astro"
 title: "Cobra's Mist"
-createdOn: "Nov 20, 2017"
+createdOn: "2017-11-20"
+submittedOn: "2023-04-08"
 description: "This staple of King Cobra's array of dank drink combos will have the Goth girls saying 'That goth guy mixing beer and soda together smells good'."
 submittedBy: "viperdude90"
 tags: ["drink combo", "beer", "soda", "mountain dew"]

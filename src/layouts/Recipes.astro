@@ -6,6 +6,14 @@ export interface Props {
 }
 
 const { frontmatter } = Astro.props;
+
+function formatDate(date: string) {
+  return new Date(date).toLocaleDateString("en-US", {
+    day: "numeric",
+    month: "short",
+    year: "numeric",
+  });
+}
 ---
 
 <!DOCTYPE html>
@@ -39,12 +47,19 @@ const { frontmatter } = Astro.props;
             class="border-4 border-dotted border-purple-500 p-4 mt-4 capitalize flex flex-col"
           >
             <span class="text-[whitesmoke] text-2xl">
-              <strong>Created on:{" "}</strong><time
-                >{frontmatter.createdOn}</time
-              >
+              <strong>Submitted by:{" "}</strong>{frontmatter.submittedBy} on {
+                formatDate(frontmatter.submittedOn)
+              }
             </span>
+            <!-- <span class="text-[whitesmoke] text-2xl">
+              <strong>Submitted on:{" "}</strong>{
+                formatDate(frontmatter.submittedOn)
+              }
+            </span> -->
             <span class="text-[whitesmoke] text-2xl">
-              <strong>Submitted by:{" "}</strong>{frontmatter.submittedBy}
+              <strong>Created on:{" "}</strong><time
+                >{formatDate(frontmatter.createdOn)}</time
+              >
             </span>
             <div id="yt-link-container">
               <a

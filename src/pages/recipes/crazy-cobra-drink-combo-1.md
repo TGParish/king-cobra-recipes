@@ -1,7 +1,8 @@
 ---
 layout: "../../layouts/Recipes.astro"
 title: "Crazy Cobra #1"
-createdOn: "May 21, 2018"
+createdOn: "2018-05-21"
+submittedOn: "2023-04-09"
 description: "It's a crazy drink combination: It's called Crazy Cobra #1 because King Cobra don't know what the fuck to call it! 'tis rather a delicious drink combination and it's got some bite to it!"
 submittedBy: "Sneaky_Dingo"
 tags:

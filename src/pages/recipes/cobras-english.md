@@ -1,7 +1,8 @@
 ---
 layout: "../../layouts/Recipes.astro"
 title: "Cobra's English"
-createdOn: "May 21, 2018"
+createdOn: "2018-05-21"
+submittedOn: "2023-04-09"
 description: "Jolly good, this crazy mixologist is at it again. This time with malt liquor and Monster. Hold onto your britches, bitches!!"
 submittedBy: "Sneaky_Dingo"
 tags: ["drink combo", "malt liquor", "beer", "monster", "energy drink"]

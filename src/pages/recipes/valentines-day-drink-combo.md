@@ -1,7 +1,8 @@
 ---
 layout: "../../layouts/Recipes.astro"
 title: "Valentine's Day Special 2023"
-createdOn: "Feb 7, 2023"
+createdOn: "2023-02-23"
+submittedOn: "2023-04-08"
 description: "Spending Valentine's day alone or, if you're lucky enough, with your of-age, alive, cis-gendered,
 consenting, non-related girlfriend? This potent drink combo will get you lucky with yourself and others!"
 submittedBy: "viperdude90"
