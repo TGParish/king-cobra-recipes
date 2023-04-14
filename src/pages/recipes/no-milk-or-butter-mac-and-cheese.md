@@ -2,6 +2,7 @@
 layout: "../../layouts/Recipes.astro"
 title: "No Milk Or Butter Mac and Cheese"
 createdOn: "2016-06-21"
+submittedOn: "2023-04-08"
 description: "A great option if you want Mac and Cheese but don't have milk or butter! Doesn't hurt to do the dishes while we're at it."
 submittedBy: "viperdude90"
 tags: ["Mac and Cheese", "Ranch"]
