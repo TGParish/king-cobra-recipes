@@ -37,9 +37,15 @@ const tags = [
         </section>
         <section id="tags">
           <h2>Or Browse by Tag...</h2>
-          <ul>
-            {tags.map((tag) => <RecipeList url={`/tags/${tag}`} title={tag} />)}
-          </ul>
+          <div class="">
+            <ul class="columns-2">
+              {
+                tags.map((tag) => (
+                  <RecipeList url={`/tags/${tag}`} title={tag} />
+                ))
+              }
+            </ul>
+          </div>
         </section>
         <section id="why">
           <h2>Huh, cool, what is this...</h2>
