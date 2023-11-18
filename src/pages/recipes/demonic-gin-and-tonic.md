@@ -7,7 +7,7 @@ description: "This demonic drink will have you wishing you were in hell."
 submittedBy: "viperdude90"
 tags: ["drink combo", "sparkling water", "gin", "monster"]
 image: ""
-link: "https://www.youtube.com/watch?v=0-KAZ4SXmSE&ab_channel=KingCobraJFS"
+link: "https://www.youtube.com/shorts/wFgKge-Iw6k"
 ingredients: ["gin", "sparkling water", "monster"]
 ---
 
