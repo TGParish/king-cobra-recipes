@@ -52,7 +52,7 @@ function Search({ searchList }) {
       <ol>
         {recipes &&
           recipes.map((recipe) => (
-            <li key={recipe.submittedBy}>
+            <li key={recipe.url}>
               <a tabIndex="0" href={recipe.url}>
                 {recipe.frontmatter.title}
               </a>
