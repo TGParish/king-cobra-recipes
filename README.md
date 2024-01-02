@@ -15,5 +15,3 @@ You are also free to do a pull request.
 ## Suggestions
 
 I am open to suggestions about features for this website, send them to the email above.
-
-test
