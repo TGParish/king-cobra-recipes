@@ -22,10 +22,7 @@ function Search({ searchList }) {
   const fuse = new Fuse(searchList, options);
 
   // Set a limit to the recipes: 5
-  const recipes = fuse
-    .search(query)
-    .map((result) => result.item)
-    .slice(0, 5);
+  const recipes = fuse.search(query).map((result) => result.item);
 
   function handleOnSearch({ target = {} }) {
     const { value } = target;
