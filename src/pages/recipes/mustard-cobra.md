@@ -26,7 +26,6 @@ ingredients: [
 ## Ingredients
 
 - ~18 oz Pacifico Beer
-
 - ~6 oz Lester Fixins Mustard flavored Soda Pop
 
 ## Instructions

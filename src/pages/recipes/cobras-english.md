@@ -14,7 +14,6 @@ ingredients: ["olde english 800", "monster energy drink"]
 ## Ingredients
 
 - 1/2 cup Olde English 800
-
 - 1/2 cup Monster Energy Drink
 
 ## Instructions

@@ -14,23 +14,15 @@ ingredients: ["macaroni", "ranch", "cheese powder"]
 ## Ingredients
 
 - Macaroni
-
 - Ranch
-
 - Cheese powder
 
 ## Instructions
 
 1. Turn stove on to 4 on an electric stove, might be less for a gas stove.
-
 2. Pour noodles in water that isn't quite boiling.
-
 3. Do the dishes while the noodles cook ~5 minutes
-
 4. Add a liberal amount of ranch to the pot. Take a fork and stir the ranch around. The ranch will give it a nice creamy taste.
-
 5. Add cheese powder to noodles and stir.
-
 6. Say "Oh yeah, mix that mac and cheese, oh yeah" while stirring.
-
 7. Once the ranch boils away, it congeles with the cheese, creating a nice serving of Mac and Cheese

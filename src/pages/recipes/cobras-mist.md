@@ -14,7 +14,6 @@ ingredients: ["blue moon", "mountain dew"]
 ## Ingredients
 
 - 1/2 Mountain Dew
-
 - 1/2 Blue Moon Beer
 
 ## Instructions

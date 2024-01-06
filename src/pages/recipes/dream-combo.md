@@ -24,7 +24,6 @@ ingredients: ["fleischmann's vodka", "coca-cola"]
 ## Ingredients
 
 - Fleischmann's vodka
-
 - Coca-Cola
 
 ## Instructions

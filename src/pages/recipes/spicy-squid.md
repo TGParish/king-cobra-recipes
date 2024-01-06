@@ -39,15 +39,10 @@ ingredients: [
 ## Ingredients
 
 - 4 oz GOYA Jumbo Squid in Hot Sauce
-
 - ~1/2 cup Lester Fixins Mustard flavored Soda Pop
-
 - ~1/2 cup Pacifico Beer 24oz Can
-
 - ~1/2 cup Gatorade (Champion League) Sports Drink Lime Cucumber Flavor
-
 - Splash of Lester Fixins Mustard flavored Soda Pop
-
 - Splash of Gatorade (Champion League) Sports Drink Lime Cucumber Flavor
 
 ## Instructions

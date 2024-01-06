@@ -14,9 +14,7 @@ ingredients: ["gin", "sparkling water", "monster"]
 ## Ingredients
 
 - 1/2 Sparking Water
-
 - 1/2 Gin
-
 - Splash of Monster Energy Drink
 
 ## Instructions

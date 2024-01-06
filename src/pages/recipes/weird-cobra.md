@@ -34,11 +34,8 @@ ingredients:
 ## Ingredients
 
 - 750mL Whicked Pickle Spicy Pickle Flavored Whiskey
-
 - 750mL Devils River Bourbon Whiskey
-
 - 50ml 99 Bananas Schnapps Mini 99 Proof
-
 - splash of mountain Dew
 
 ## Instructions

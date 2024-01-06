@@ -20,11 +20,8 @@ ingredients:
 ## Ingredients
 
 - 1/2 cup Olde English 800
-
 - 1/2 cup Monster Energy Drink
-
 - 5 glugs of Wild Turkey American Honey Bourbon whiskey
-
 - Splash of Monster Energy Drink
 
 ## Instructions
