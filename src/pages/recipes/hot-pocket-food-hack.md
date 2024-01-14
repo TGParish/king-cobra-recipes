@@ -31,10 +31,10 @@ ingredients:
 
 ## Instructions
 
-- Heat the breakfast croissant in the microwave until the cheese starts "bubbling"
-- Microwave the hot pocket, tasting it to temperature while telling the trolls to lick your asscrack
-- Stack the hot pocket on top of the croissant meat/cheese
-- Add some bacon ranch
-- Look at the masterpiece you've created and add the croissant top bun
-- Get ranch all over your phone case and lick it all off
-- (Optional) try and fail to open the grape soda
+1. Heat the breakfast croissant in the microwave until the cheese starts "bubbling"
+2. Microwave the hot pocket, tasting it to temperature while telling the trolls to lick your asscrack
+3. Stack the hot pocket on top of the croissant meat/cheese
+4. Add some bacon ranch
+5. Look at the masterpiece you've created and add the croissant top bun
+6. Get ranch all over your phone case and lick it all off
+7. (Optional) try and fail to open the grape soda
