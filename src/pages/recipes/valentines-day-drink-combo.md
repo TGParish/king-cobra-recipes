@@ -38,5 +38,5 @@ ingredients:
 4. Some of these shooters are creamy so they might curdle a litte bit.
 5. Splash of tequila
 6. Add hot jerky stick as a condiment like they do with Bloody Marys.
-7.
+
 For of age(21 years old) and up fans only.

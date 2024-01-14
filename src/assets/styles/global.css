@@ -20,12 +20,12 @@
     @apply text-2xl text-[#F8F5E4] my-4;
   }
   ol li {
-    @apply text-2xl list-decimal decoration-slate-100 marker:text-white ml-6;
+    @apply text-2xl list-decimal decoration-slate-100 marker:text-white ml-6 text-white;
   }
   ol {
     @apply list-decimal;
   }
- li {
+ul li {
     @apply text-2xl list-disc decoration-slate-100 marker:text-white capitalize ml-6 text-white;
   }
   li a {
