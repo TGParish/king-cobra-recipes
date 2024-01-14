@@ -25,8 +25,8 @@
   ol {
     @apply list-decimal;
   }
-  ul li {
-    @apply text-2xl list-disc decoration-slate-100 marker:text-white capitalize ml-6;
+ li {
+    @apply text-2xl list-disc decoration-slate-100 marker:text-white capitalize ml-6 text-white;
   }
   li a {
     @apply text-[#F7C04A] visited:text-[#aa7a12] hover:text-[#F8F5E4];
