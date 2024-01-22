@@ -6,7 +6,7 @@ submittedOn: "2024-01-16"
 description: "This exotic dish will show the trolls you're multcultiral"
 submittedBy: "viperdude90"
 tags: ["monstrosity", "food hack", "dairy", "bacon"]
-image: "/images/mac-and-cheese.png"
+image: "/images/sardine-spam-noodles.png"
 link: "https://www.youtube.com/watch?v=iFtBA_4ShOA&t=856s"
 ingredients: ["Top ramen chicken noodles", "Red hot buffalo ranch", "Pork king bacon seasoning", "Glass kicking seasoning", "Bacon grease in a tub", "Country Crock spread", "Spam", "Summer sausages", "Bacon bits", "Sardines", "Sharp cheddar cheese", "Velveeta cheese sauce", "olive oil"]
 ---
@@ -38,8 +38,8 @@ This is a long one with a lot of ingredients, so set yourself with a drink combo
 
 1. Add two packets of ramen noodles chicken soup into a bowl and add the packets
 2. Add the odd mixture of seasoning mentioned in the ingredients, and two cups of extra virgin(hehe) olive oil to bowl
-3. Some genius put bacon grease in a Country Crock like tub! Add like 3 scoops of that shit.
-4. If you live in an area with untreated and lead-ridden water like Casper, Wyoming, pour two bottles of fresh water into the mixture, else whatever you got.
+3. Some genius put bacon grease in a Country Crock like tub! Add like 3 scoops of that shit.r you got.
+4. If you live in an area with untreated and lead-ridden water like Casper, Wyoming, pour two bottles of fresh water into the mixture, else whateve
 5. Add 3 scoops or more of Country Crock spread to bring on the diabeetus
 6. Microwave your slop in the microwave for 12 minutes so it completely rubberizes.
 7. Now this is where it gets good, YouTube! Add some of that country crock spread to a pan on medium heat.
@@ -47,8 +47,8 @@ This is a long one with a lot of ingredients, so set yourself with a drink combo
 9. Get that sum of bitch cooking!
 10. Use a spoon to stir the contents of the bowl in the microwave, make sure they're all dent yay
 11. Boil the spam alive in the greasy pan until they're scorched
-12. Prepare the summer sausauges
-13. Drain the broth from the bowl, make sure you angle it at such a way that the contents run down the side of the bowl and go on the rim of the sink.
+12. Prepare the summer sausaugesnk.
+13. Drain the broth from the bowl, make sure you angle it at such a way that the contents run down the side of the bowl and go on the rim of the si
 14. Add Kraft sweet barbeque sauce.
 15. Add Frank's red hot buffalo wing sauce. Maybe a little bit more.
 16. Add Chick fila sauce
