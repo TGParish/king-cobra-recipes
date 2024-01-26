@@ -52,11 +52,6 @@ function formatDate(date: string) {
                 formatDate(frontmatter.submittedOn)
               }
             </span>
-            <!-- <span class="text-[whitesmoke] text-2xl">
-              <strong>Submitted on:{" "}</strong>{
-                formatDate(frontmatter.submittedOn)
-              }
-            </span> -->
             <span class="text-[whitesmoke] text-2xl">
               <strong>Created on:{" "}</strong><time
                 >{formatDate(frontmatter.createdOn)}</time
@@ -70,9 +65,6 @@ function formatDate(date: string) {
               >
             </div>
           </div>
-          <section id="description">
-            <p>{frontmatter.description}</p>
-          </section>
           <slot />
           <h2>Tags:</h2>
           <ul class="">
