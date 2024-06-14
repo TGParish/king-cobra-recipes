@@ -12,8 +12,9 @@ export async function getStaticPaths() {
     const filteredRecipes = allRecipes.filter((recipe) =>
       recipe.frontmatter.tags.includes(tag)
     );
+    const tagUrl = tag.replace(/ /g, "-");
     return {
-      params: { tag },
+      params: { tag: tagUrl },
       props: { recipes: filteredRecipes },
     };
   });

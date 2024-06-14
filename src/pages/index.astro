@@ -45,7 +45,10 @@ const tags = [
             <ul class="columns-2">
               {
                 tags.map((tag) => (
-                  <RecipeList url={`/tags/${tag}`} title={tag} />
+                  <RecipeList
+                    url={`/tags/${tag.replace(/ /g, "-")}`}
+                    title={tag}
+                  />
                 ))
               }
             </ul>
@@ -83,10 +86,10 @@ const tags = [
             Recipes can be submitted through <a
               href="https://github.com/TGParish/king-cobra-recipes/tree/main"
               class="text-green-500"
-	      target="_blank">
-	      Github.
-	      </a
+              target="_blank"
             >
+              Github.
+            </a>
           </p>
         </section>
         <section>
