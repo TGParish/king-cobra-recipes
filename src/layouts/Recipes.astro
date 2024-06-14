@@ -71,7 +71,7 @@ function formatDate(date: string) {
             {
               frontmatter.tags.map((tag: string) => (
                 <li>
-                  <a href={"/tags/" + tag}>{tag}</a>
+                  <a href={"/tags/" + tag.replace(/ /g, "-")}>{tag}</a>
                 </li>
               ))
             }

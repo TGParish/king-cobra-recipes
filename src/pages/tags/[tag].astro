@@ -15,24 +15,24 @@ export async function getStaticPaths() {
     const tagUrl = tag.replace(/ /g, "-");
     return {
       params: { tag: tagUrl },
-      props: { recipes: filteredRecipes },
+      props: { recipes: filteredRecipes, tagName: tag },
     };
   });
 }
 
 const { tag } = Astro.params;
-const { recipes } = Astro.props;
+const { recipes, tagName } = Astro.props;
 ---
 
 <Layout
   title="Cobra's Magic Recipes"
-  description={`Recipes tagged with ${tag}`}
+  description={`Recipes tagged with ${tagName}`}
 >
   <main>
     <div id="content-container" class="flex justify-center items-center">
       <article id="about" class="m-6 w-[40rem]">
         <h1>
-          Recipes tagged with "{tag}"
+          Recipes tagged with "{tagName}"
         </h1>
         <div class="tags-list mt-2">
           <ul>
@@ -47,3 +47,4 @@ const { recipes } = Astro.props;
     </div>
   </main>
 </Layout>
+
