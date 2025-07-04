@@ -28,7 +28,7 @@ ingredients:
 
 Sick of your trolls telling you you're an uncultured swine? A dilettante that doesn't appreciated the more refined things in life? Well this exotic dish will put those trolles in their place and put dinner on the table!
 
-Featuring sardines(a diary), ramen noodles, spam, and a ton of bacon and grease, this multinational dish will solve racism for good!
+Featuring sardines (a dairy), ramen noodles, spam, and a ton of bacon and grease, this multinational dish will solve racism for good!
 
 This is a long one with a lot of ingredients, so set yourself with a drink combo(add link) and hunker down.
 
