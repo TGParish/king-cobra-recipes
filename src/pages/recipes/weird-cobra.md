@@ -8,14 +8,7 @@ submittedBy: "Sneaky_Dingo"
 image: "/images/weird-cobra.png"
 tags:
   [
-    "whicked pickle",
-    "pickle",
-    "whiskey",
-    "devils river",
-    "bourbon",
-    "99 bananas",
-    "bananas schnapps",
-    "banana",
+    "drink combo",
     "mountain dew",
     "weird",
     "birthday",
@@ -23,20 +16,17 @@ tags:
   ]
 link: "https://www.youtube.com/watch?v=56c3twpSQf8"
 ingredients:
-  [
-    "whicked pickle spicy pickle flavored whiskey",
-    "devils river bourbon whiskey",
-    "99 bananas schnapps mini 99 proof",
-    "mountain dew",
-  ]
+- item: Whicked Pickle Spicy Pickle Flavored Whiskey
+  amount: 1 shot
+- item: Devils River Bourbon Whiskey
+  amount: 1 shot
+- item: 99 Bananas Schnapps Mini 99 Proof
+  amount: 1 shot
+- item: mountain Dew
+  amount: splash
+
+
 ---
-
-## Ingredients
-
-- 750mL Whicked Pickle Spicy Pickle Flavored Whiskey
-- 750mL Devils River Bourbon Whiskey
-- 50ml 99 Bananas Schnapps Mini 99 Proof
-- splash of mountain Dew
 
 ## Instructions
 

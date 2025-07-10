@@ -10,19 +10,13 @@ tags:
 image: "/images/crazy-cobra.png"
 link: "https://www.youtube.com/watch?v=rs2G79kFhIQ"
 ingredients:
-  [
-    "olde english 800",
-    "monster energy drink",
-    "wild turkey american honey bourbon whiskey",
-  ]
+  - item: olde english 800
+    amount: 1/2 cup 
+  - item: monster energy drink
+    amount: splash
+  - item: wild turkey american honey bourbon whisky
+    amount: 5 glugs
 ---
-
-## Ingredients
-
-- 1/2 cup Olde English 800
-- 1/2 cup Monster Energy Drink
-- 5 glugs of Wild Turkey American Honey Bourbon whiskey
-- Splash of Monster Energy Drink
 
 ## Instructions
 

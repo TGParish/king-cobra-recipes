@@ -11,25 +11,29 @@ tags:
 image: "/images/valentines-day-special.png"
 link: "https://www.youtube.com/watch?v=bSGMESOT67M&t=35s&ab_channel=KingCobraJFS"
 ingredients:
-  ["korbel california champagne sweet rosé", "jose cuervo gold tequila"]
+  - item: Korbel California Champagne Sweet Rosé
+    amount: to taste
+  - item: Jose Cuervo Gold Tequila
+    amount: 1 shot
+  - item: Faygo Fireworks Soda Pop
+    amount: 1/2 cup
+  - item: 99 Proof Blackberry Shooter
+    amount: 1 bottle
+  - item: Kinky Pink Shooter
+    amount: 1 bottle
+  - item: Menthol Mint Shooter
+    amount: 1 bottle
+  - item: Rum Shooter
+    amount: 1 bottle
+  - item: Vodka Shooter
+    amount: 1 bottle
+  - item: Peach Shooter
+    amount: 1 bottle
+  - item: Kinky Aloha
+    amount: 1 shot
+  - item: Hot Jerky Stick
+    amount: 1 stick
 ---
-
-
-
-## Ingredients
-
-- Korbel California Champagne Sweet Rosé
-- Jose Cuervo Gold Tequila
-- faygo fireworks soda pop
-- 99 Proof Blackberry shooter
-- Kinky Pink shooter
-- Menthol Mint shooter
-- rum shooter
-- vodka shooter
-- peach shooter
-- kinky aloha
-- hot jerky stick
-
 ## Instructions
 
 1. Pour the Korbel Champagne into your couldron, tilt it just like you're pouring a beer

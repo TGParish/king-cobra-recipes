@@ -8,14 +8,11 @@ submittedBy: "viperdude90"
 tags: ["Mac and Cheese", "Ranch"]
 image: "/images/mac-and-cheese.png"
 link: "https://www.youtube.com/watch?v=vgb8OXU1A2s&t=0s&ab_channel=Podchamp"
-ingredients: ["macaroni", "ranch", "cheese powder"]
+ingredients: 
+  - item: macaroni
+  - item: ranch
+  - item: cheese powder
 ---
-
-## Ingredients
-
-- Macaroni
-- Ranch
-- Cheese powder
 
 ## Instructions
 

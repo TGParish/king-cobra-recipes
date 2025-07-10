@@ -6,44 +6,17 @@ submittedOn: "2023-04-29"
 description: "This recipe is a rare combination food and drink that boasts a spicy and funky aroma."
 submittedBy: "Sneaky_Dingo"
 image: "/images/spicy-squid.png"
-tags:
- [
-"goya",
-"jumbo squid",
-"squid",
-"hot sauce",
-"lester fixins",
-"mustard flavored soda",
-"pacifico",
-"beer",
-"gatorade",
-"sports drink",
-"lime cucumber flavor",
-"food and drink combo",
-"spicy",
-"funky",
-"soda",
-"drink combo",
-"food"
-]
-
-link: "https://youtu.be/YRdRBVJd6AY"
-ingredients: [
-"goya jumbo squid in hot sauce",
-"lester fixins mustard flavored soda pop",
-"pacifico beer",
-"gatorade sports drink lime cucumber flavor"
-]
+tags: ["drink combo", "food hack", "spicy"]
+ingredients:
+  - item: GOYA Jumbo Squid in Hot Sauce
+    amount: 4 oz
+  - item: Lester Fixins Mustard flavored Soda Pop
+    amount: ~1/2 cup + splash
+  - item: Pacifico Beer (24oz Can)
+    amount: ~1/2 cup
+  - item: Gatorade (Champion League) Sports Drink Lime Cucumber Flavor
+    amount: ~1/2 cup + splash
 ---
-
-## Ingredients
-
-- 4 oz GOYA Jumbo Squid in Hot Sauce
-- ~1/2 cup Lester Fixins Mustard flavored Soda Pop
-- ~1/2 cup Pacifico Beer 24oz Can
-- ~1/2 cup Gatorade (Champion League) Sports Drink Lime Cucumber Flavor
-- Splash of Lester Fixins Mustard flavored Soda Pop
-- Splash of Gatorade (Champion League) Sports Drink Lime Cucumber Flavor
 
 ## Instructions
 

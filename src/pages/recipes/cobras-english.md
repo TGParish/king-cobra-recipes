@@ -8,13 +8,13 @@ submittedBy: "Sneaky_Dingo"
 tags: ["drink combo", "malt liquor", "beer", "monster", "energy drink"]
 image: "/images/cobras-english.png"
 link: "https://www.youtube.com/watch?v=rs2G79kFhIQ"
-ingredients: ["olde english 800", "monster energy drink"]
+ingredients:
+  - item: olde english 800 
+    amount: 1/2 cup
+  - item: monster energy drink 
+    amount: 1/2 cup
 ---
 
-## Ingredients
-
-- 1/2 cup Olde English 800
-- 1/2 cup Monster Energy Drink
 
 ## Instructions
 

@@ -8,7 +8,9 @@ submittedBy: "viperdude90"
 tags: ["drink combo", "beer", "soda", "mountain dew"]
 image: ""
 link: "https://www.youtube.com/watch?v=0-KAZ4SXmSE&ab_channel=KingCobraJFS"
-ingredients: ["blue moon", "mountain dew"]
+ingredients:
+  - item: blue moon
+  - item: mountain dew
 ---
 
 ## Ingredients

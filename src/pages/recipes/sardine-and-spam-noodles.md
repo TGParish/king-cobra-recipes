@@ -9,51 +9,39 @@ tags: ["monstrosity", "food hack", "dairy", "bacon"]
 image: "/images/sardine-spam-noodles.png"
 link: "https://www.youtube.com/watch?v=iFtBA_4ShOA&t=856s"
 ingredients:
-  [
-    "Top ramen chicken noodles",
-    "Red hot buffalo ranch",
-    "Pork king bacon seasoning",
-    "Glass kicking seasoning",
-    "Bacon grease in a tub",
-    "Country Crock spread",
-    "Spam",
-    "Summer sausages",
-    "Bacon bits",
-    "Sardines",
-    "Sharp cheddar cheese",
-    "Velveeta cheese sauce",
-    "olive oil",
-  ]
+  - item: Top ramen chicken noodles
+    amount: 1 pack
+  - item: Red hot buffalo ranch
+    amount: to taste
+  - item: Pork king bacon seasoning
+    amount: to taste
+  - item: Glass kicking seasoning
+    amount: to taste
+  - item: Bacon grease in a tub
+    amount: 1 spoonful
+  - item: Country Crock spread
+    amount: 1 spoonful
+  - item: Spam
+    amount: 1/2 can
+  - item: Summer sausages
+    amount: 4 slices
+  - item: Bacon bits
+    amount: sprinkle
+  - item: Sardines
+    amount: 1 can
+  - item: Sharp cheddar cheese
+    amount: 1/4 cup shredded
+  - item: Velveeta cheese sauce
+    amount: 1 packet
+  - item: Olive oil
+    amount: 2 tablespoons
 ---
-
-Sick of your trolls telling you you're an uncultured swine? A dilettante that doesn't appreciated the more refined things in life? Well this exotic dish will put those trolles in their place and put dinner on the table!
-
-Featuring sardines (a dairy), ramen noodles, spam, and a ton of bacon and grease, this multinational dish will solve racism for good!
-
-This is a long one with a lot of ingredients, so set yourself with a drink combo(add link) and hunker down.
-
-## Ingredients
-
-- Top ramen chicken noodles
-- Red hot buffalo ranch
-- Pork king bacon seasoning
-- Glass kicking seasoning
-- 2 cups olive oil
-- Bacon grease in a tub
-- Country Crock spread
-- 2 Fresh bottles of water
-- Spam
-- Summer sausages
-- Bacon bits
-- Sardines
-- Sharp cheddar cheese
-- Velveta cheese sauce
 
 ## Instructions
 
 1. Add two packets of ramen noodles chicken soup into a bowl and add the packets
 2. Add the odd mixture of seasoning mentioned in the ingredients, and two cups of extra virgin (hehe) olive oil to bowl
-3. Some genius put bacon grease in a Country Crock like tub! Add like 3 scoops of that shit.r you got.
+3. Some genius put bacon grease in a Country Crock like tub! Add like 3 scoops of that shit.
 4. If you live in an area with untreated and lead-ridden water like Casper, Wyoming, pour two bottles of fresh water into the mixture, else whateve
 5. Add 3 scoops or more of Country Crock spread to bring on the diabeetus
 6. Microwave your slop in the microwave for 12 minutes so it completely rubberizes.

@@ -5,29 +5,16 @@ createdOn: "2024-01-13"
 submittedOn: "2024-01-14"
 description: "This beautiful conccoction will have your YouTube trolls steaming"
 submittedBy: "viperdude90"
-image: "/images/hot-pocket-croissant.png"
-tags:
-  [
- 	"food hack",
-	"fuck the trolls",
-	"microwave",
-	"lick the ranch"
-  ]
+tags: ["food hack"]
 link: "https://www.youtube.com/watch?v=zKkIrgz-6jk"
+image: "/images/hot-pocket-croissant.png"
 ingredients:
-  [
- 	"hot pocket philly steak and cheese",
-	"bacon ranch",
-	"breakfast croissant"
-  ]
+  - item: hot pocket philly steak and cheese
+  - item: jimmy dean breakfast croissant
+  - item: bacon ranch
+  - item: grape soda a fan sent you(optional)
 ---
 
-## Ingredients
-
-- Hot Pocket Philly steak and cheese
-- Jimmy Deans Breakfast Croissant
-- Bacon Ranch for garnish
-- (optional) grape soda a fan sent you
 
 ## Instructions
 

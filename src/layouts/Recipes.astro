@@ -31,47 +31,70 @@ function formatDate(date: string) {
     <main>
       <div id="content-container" class="flex justify-center items-center">
         <article id="recipe" class="m-6 w-[40rem]">
-          <h1 class="">
-            {frontmatter.title}
-          </h1>
+          <h1>{frontmatter.title}</h1>
+
           {
-            frontmatter.image ? (
+            frontmatter.image && (
               <img
                 src={frontmatter.image}
                 alt={frontmatter.title}
                 title={frontmatter.title}
                 class="my-4"
               />
-            ) : null
+            )
           }
+
           <div
             class="border-4 border-dotted border-purple-500 p-4 mt-4 capitalize flex flex-col"
           >
             <span class="text-[whitesmoke] text-2xl">
-              <strong>Submitted by:{" "}</strong>{frontmatter.submittedBy} on {
-                formatDate(frontmatter.submittedOn)
-              }
+              <strong>Submitted by:</strong>
+              {frontmatter.submittedBy} on {formatDate(frontmatter.submittedOn)}
             </span>
             <span class="text-[whitesmoke] text-2xl">
-              <strong>Created on:{" "}</strong><time
-                >{formatDate(frontmatter.createdOn)}</time
-              >
+              <strong>Created on:</strong>
+              <time>{formatDate(frontmatter.createdOn)}</time>
             </span>
             <div id="yt-link-container">
               <a
                 target="_blank"
                 href={frontmatter.link}
-                class="text-2xl yt-link">YouTube Link</a
+                class="text-2xl yt-link"
               >
+                YouTube Link
+              </a>
             </div>
           </div>
+          <p>{frontmatter.description}</p>
+
+          <h2 class="mt-6 text-3xl font-bold">Ingredients:</h2>
+          <ul class="mb-6 list-disc">
+            {
+              frontmatter.ingredients.map((ingredient: any) => (
+                <li class="capitalize">
+                  {ingredient.amount ? (
+                    <strong>{ingredient.amount}</strong>
+                  ) : null}
+                  {ingredient.amount ? " " : ""}
+                  {ingredient.item}
+                </li>
+              ))
+            }
+          </ul>
+
           <slot />
-          <h2>Tags:</h2>
-          <ul class="">
+
+          <h2 class="mt-6 font-bold">Tags:</h2>
+          <ul class="flex gap-2 flex-wrap">
             {
               frontmatter.tags.map((tag: string) => (
                 <li>
-                  <a href={"/tags/" + tag.replace(/ /g, "-")}>{tag}</a>
+                  <a
+                    class="underline"
+                    href={"/tags/" + tag.replace(/ /g, "-").toLowerCase()}
+                  >
+                    {tag}
+                  </a>
                 </li>
               ))
             }

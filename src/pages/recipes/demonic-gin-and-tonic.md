@@ -8,14 +8,14 @@ submittedBy: "viperdude90"
 tags: ["drink combo", "sparkling water", "gin", "monster"]
 image: ""
 link: "https://www.youtube.com/shorts/wFgKge-Iw6k"
-ingredients: ["gin", "sparkling water", "monster"]
+ingredients:   
+- item: gin
+  amount: 1/2 
+- item: sparkling water
+  amount: 1/2
+- item: monster energy drink
+  amount: splash
 ---
-
-## Ingredients
-
-- 1/2 Sparking Water
-- 1/2 Gin
-- Splash of Monster Energy Drink
 
 ## Instructions
 

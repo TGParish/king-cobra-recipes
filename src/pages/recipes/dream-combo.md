@@ -18,13 +18,12 @@ tags:
     "soda",
   ]
 link: "https://youtu.be/tIjqET6vxGA"
-ingredients: ["fleischmann's vodka", "coca-cola"]
+ingredients:
+  - item: fleischmann's vodka 
+    amount: 1/2
+  - item: coca cola
+    amount: 1/2
 ---
-
-## Ingredients
-
-- Fleischmann's vodka
-- Coca-Cola
 
 ## Instructions
 
